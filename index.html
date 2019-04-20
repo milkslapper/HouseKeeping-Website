@@ -18,43 +18,41 @@
 <body>
     <header>
       <section class= "middle">
-        <div class="maid">
-            <!-- <img class="logo" src="img/1540864425.png" alt="housekeeping"> -->
-            </div>
-            <br>
-            <br>
-            <h1>
+        
+        <div class= "heading">  
+        <h1>
         ALMA'S
         <br>
          HOUSEKEEPING</h1>
          <h1>Cleaning Done The Way You Love</h1>
+         </div>
          
 
          <section class = "icon">
             <!-- <button type="button"><img src="/img/telephone.png" title="Place A Title For Mouse Hover" alt="Pic Loading..." height="25px" width="25px"/></button> -->
             
-          <a class="call" href="tel:+1-520-200-1508">Call 1-800-200-1508</a>
+          <a class="call" href="tel:520-200-1508">Call 520-200-1508
+          </a>
           <br>
           <br>
-          (Free Estimate)
-          <br>
-          <br>
+          <p class="call">Schedule Now</p>
+          
+          
        
 
          </section>
-
+        
          
         </section>
-
+       
 
 
     <section>
     <nav> 
         <a id="b" href="#">Home</a>
-        <a id="c" href="#">About</a>
-        <a id="d" href="#">Specials</a>
-        <a id="e" href="#">FAQ'S</a>
-        <a id="f" href="#">Reviews</a>
+        <a id="c" href="#about-section">About</a>
+        <a id="d" href="#faq">FAQ'S</a>
+        <a id="e" href="#">Reviews</a>
     </nav>
     </section>
     <section class="middle-content">
@@ -65,15 +63,94 @@
           <div class="c"></div>
           <div class="d"></div>
         </div>
+        
 
-        <div class="form-box">
-        <form>
-          <p class="name-tag">Name:</p>
-          <input type="text">
-          <p class="name-tag">Zip Code:</p>
-          <input type="text">
+        <section id = "about-section">
+          <h2>About</h2>
+          <p>My name is Alma, I have had my cleaning service for around 30 yrs. I am very professional, dependable, loyal and meticulous! I will be the only person in your home.....every time. I take pride in my work and make sure it is a job well done.
+            <p>
+              I specialize in:</p>
+              <ul>
+              <li>* Move Outs/Move Ins</li>
+             <li> * Residential/Commercial</li>
+            <li>  * Basic or Deep</li>
+              <li>* One Time</li>
+             <li> * Bi-Weekly</li>
+             <li>* Monthly</li>
+             <li> * Before/After Special Event</li>
+             <li> * Vacancies/Selling</li>
+             <li> * Carpet Cleaning</li>
+            </ul>
+              
+              
+             <p> I am here to make my customers happy and get/keep the job and not
+              charge too much for the service either. I have seen here in the Tucson area,
+              cleaning services that think they can clean because they clean "their
+              home". We KNOW there are 2 different types of cleaning, and since I clean "professionally" it is a whole different ball game. I can't complain it is "job security" for me :-).
+              
+              Hopefully, we can do business together and we all will be happy. We will get a win/win price with you! Hope your enjoying your day!</p>
+              <br>
+        </section>
+        <section class = "faq">
+        <h2 id = "faq">FAQ'S</h2>
+        
+
+<button class="accordion">Is Alma HouseKeeping a Franchise?</button>
+<div class="panel">
+  <p>No. We are an independent cleaning company, which means that we can offer the flexibility and customized services that our customers deserve.</p>
+</div>
+
+<button class="accordion">Will I Need to Sign a Contract?</button>
+<div class="panel">
+  <p>We do not require our customers to sign contractors before working with us. While we have long-standing relationships with many of our customers, we also want to make sure that they have the freedom to change or cancel their services at any time.</p>
+</div>
+
+<button class="accordion">Are You Available To Work on Saturdays?</button>
+<div class="panel">
+  <p>We are available to work on most Saturdays. Please contact us in advance to confirm our availability and make accommodations.</p>
+</div>
+<button class="accordion">When is Payment Made?</button>
+<div class="panel">
+  <p>Payment is expected on the day of service. However, we can make special accommodations if you speak to us in advance.</p>
+</div>
+
+<button class="accordion">What Forms of Payment Are Accepted?</button>
+<div class="panel">
+  <p>We accept cash or check on scheduled cleanings. A fee may be charged for returned checks, cash only for move in/out cleaning services.</p>
+</div>
+<button class="accordion">Who Will Clean My Home?</button>
+<div class="panel">
+  <p>We typically send a team of two cleaning professionals to every residence. To provide consistent and efficient service, we try to send the same team to your home for every visit.</p>
+</div>
+
+<button class="accordion">Do I Need to Be Home While You Are Cleaning?</button>
+<div class="panel">
+  <p>You don’t need to be present while we are cleaning, but you need to make sure that we have access to your house. Your best option is to arrange a secure place for Flat Rate Maids to retrieve your house key.</p>
+</div>
+<button class="accordion">What Do i Need to Provide?</button>
+<div class="panel">
+  <p>We provide all of our own cleaning supplies. Please let us know in advance if you want to use any special products to clean your home.</p>
+</div>
+</section>
+        
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
           
-        </form>
+        
         </div>
 
       </div> 
