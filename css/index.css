@@ -217,11 +217,11 @@ header #about-section ul {
 header .middle-content {
   background: #d8c85f;
 }
-.slider {
+header .slider {
   flex-wrap: wrap;
   display: flex;
 }
-.box {
+header .box {
   position: relative;
   width: 120rem ;
   height: 40rem;
@@ -246,7 +246,7 @@ header .middle-content {
     background-image: url(/img/thing.jpg);
   }
 }
-.faq h2 {
+header .faq h2 {
   text-align: center;
   font-size: 4rem;
   border: solid 0.2rem black;
@@ -254,7 +254,7 @@ header .middle-content {
   background: white;
   padding-bottom: 0.5rem;
 }
-.accordion {
+header .accordion {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -266,14 +266,18 @@ header .middle-content {
   font-size: 15px;
   transition: 0.4s;
 }
-.active,
-.accordion:hover {
+header .active,
+header .accordion:hover {
   background-color: #ccc;
 }
-.panel {
+header .panel {
   padding: 0 18px;
   display: none;
   background-color: white;
   overflow: hidden;
   font-size: 3rem;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
 }
